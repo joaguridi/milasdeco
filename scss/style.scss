@@ -1,17 +1,16 @@
-@import "header";
-@import "main-inicio";
-@import "fonts";
-@import "footer";
-@import "productos";
-@import "carro";
-@import "degradados";
+@import "components/header";
+@import "components/main-inicio";
+@import "components/fonts";
+@import "components/footer";
+@import "components/productos";
+@import "components/carro";
+@import "components/nosotros";
+@import "base/fonts";
 
-body{
-    
-    margin: 0%;
-    
-    
-    }
+
+
 
 
     
+
+
