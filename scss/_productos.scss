@@ -1,0 +1,60 @@
+.main-productos{
+    background-image: url("../multimedia/fondo-productos.png");
+    background-size: cover;
+    padding: 0%;
+    margin-top: 0%;
+    
+
+}
+
+.productos-conteiner{
+
+    margin-right: 5%;
+    margin-left: 5%;
+    
+}
+
+.box-productos-conteiner{
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+.producto-item{
+    
+    margin-top: 2%;
+    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+
+   &:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+    margin-right: 10px;
+    margin-left: 10px;
+   } 
+}
+
+.producto-style{
+
+    
+    margin-top: 4px;
+    text-align: center;
+
+        
+}
+
+.precio-producto{
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.boton-carro{
+    display: flex;
+    justify-content: center;
+}
+
